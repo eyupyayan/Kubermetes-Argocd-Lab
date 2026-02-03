@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: "https://github.com/eyupyayan/Kubermetes-Argocd-Lab.git"
     targetRevision: master
-    path: k8s
+    path: 
   destination:
     server: https://kubernetes.default.svc
     namespace: kubelab
@@ -18,4 +18,5 @@ spec:
       selfHeal: true
     syncOptions:
       - CreateNamespace=true
+
 
