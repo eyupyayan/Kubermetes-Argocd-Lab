@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: flask-config
+  namespace: kubelab
+data:
+  APP_NAME: "flask-demo"
+  APP_COLOR: "blue"
+  
